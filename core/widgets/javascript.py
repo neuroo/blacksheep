@@ -41,11 +41,11 @@ class JSEvaluator(QWidget):
 		self.lexer.setAPIs(self.jsAPI)
 		self.evalJS.setMarginLineNumbers(1, True)
 		self.evalJS.setMarginWidth(1, 25)
-		fsize = 8
+		fsize = 10
 		for sty in range(128):
 			if not self.lexer.description(sty).isEmpty():
 				f = self.lexer.font(sty)
-				f.setFamily('courier new')
+				f.setFamily('monaco, monospace, sans-sherif')
 				f.setPointSize(fsize)
 				self.lexer.setFont(f, sty)
 		self.evalJS.setLexer(self.lexer)

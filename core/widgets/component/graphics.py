@@ -92,8 +92,8 @@ class NodeItem(QGraphicsItem):
 		self.uid = -1
 		self.diameter = 20
 		self.inner_diameter = 20
-		self.size_font = 8
-		self.font = QFont("Helvetica", self.size_font, QFont.Light)
+		self.size_font = 10
+		self.font = QFont("monaco, monospace, sans-sherif", self.size_font, QFont.Light)
 		self.metrics = QFontMetrics(self.font)
 		self.setFlag(QGraphicsItem.ItemIsSelectable)
 		self.setFlag(QGraphicsItem.ItemIsMovable)

@@ -153,11 +153,11 @@ class DisplayContainer(QWidget):
 		self.scintilla.setFolding(QsciScintilla.BoxedTreeFoldStyle)
 		QObject.connect(self.scintilla, SIGNAL('textChanged()'), self.textChanged_Slot)
 
-		fsize = 8
+		fsize = 10
 		for sty in range(128):
 			if not lexer.description(sty).isEmpty():
 				f = lexer.font(sty)
-				f.setFamily('courier new')
+				f.setFamily('monaco, monospace, sans-sherif')
 				f.setPointSize(fsize)
 				lexer.setFont(f, sty)
 

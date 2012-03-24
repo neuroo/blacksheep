@@ -84,7 +84,7 @@ class DisplayContainer(QWidget):
 		for sty in range(128):
 			if not lexer.description(sty).isEmpty():
 				f = lexer.font(sty)
-				f.setFamily('courier new')
+				f.setFamily('monaco, monospace, sans-sherif')
 				f.setPointSize(fsize)
 				lexer.setFont(f, sty)
 

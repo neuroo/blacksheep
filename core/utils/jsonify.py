@@ -25,6 +25,10 @@ def jsonify_headers(headers, variable_name):
 	if  headers['request']['cookies']:
 		for c in headers['request']['cookies']:
 			cookies_list.append((str(c.name()), str(c.value()), str(c.toRawForm())))
+
+	if 'content-QByteArray' not in headers['response'] or 'content-QByteArray' not in headers['request']:
+		return "console.log('No header found.');"
+
 	js_header = {
 		'method' : headers['type'],
 		'request' : {

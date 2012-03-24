@@ -489,6 +489,7 @@ class WebBrowser(QWidget):
 
 		# web settings
 		self.websettings = self.webpage.settings()
+		self.websettings.setAttribute(QWebSettings.JavascriptEnabled, True)
 		self.websettings.setAttribute(QWebSettings.PluginsEnabled, True)
 		self.websettings.setAttribute(QWebSettings.DeveloperExtrasEnabled, True)
 		self.websettings.setAttribute(QWebSettings.OfflineStorageDatabaseEnabled, True)
