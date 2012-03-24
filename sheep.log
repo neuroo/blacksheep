@@ -1,0 +1,6 @@
+[2012-03-24 14:59:39,895 -  DEBUG] - Plugin::__init__
+[2012-03-24 14:59:39,896 -  DEBUG] - PluginMonitor::__init__
+[2012-03-24 14:59:39,898 -  DEBUG] - Plugin::__init__
+[2012-03-24 14:59:39,898 -  DEBUG] - PluginMonitor::__init__
+[2012-03-24 14:59:40,203 -  DEBUG] - GraphView::__init__- No GL support for the platform: darwin
+[2012-03-24 15:01:59,192 -  DEBUG] - NetworkManager::save- Save isn't implemented yet for the network manager

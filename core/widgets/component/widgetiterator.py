@@ -18,8 +18,8 @@
 	limitations under the License.
 """
 
-from PySide.QtCore import *
-from PySide.QtGui import *
+from PyQt4.QtCore import *
+from PyQt4.QtGui import *
 
 class QTreeWidgetIterPy(QTreeWidgetItemIterator):
 	def __init__(self, *args):

@@ -17,9 +17,9 @@
 	See the License for the specific language governing permissions and
 	limitations under the License.
 """
-from PySide.QtCore import *
-from PySide.QtGui import *
-from PySide.QtNetwork import *
+from PyQt4.QtCore import *
+from PyQt4.QtGui import *
+from PyQt4.QtNetwork import *
 
 import hashlib
 import re

@@ -18,9 +18,9 @@
 	limitations under the License.
 """
 import sys
-from PySide.QtCore import *
-from PySide.QtGui import *
-from PySide.Qsci import *
+from PyQt4.QtCore import *
+from PyQt4.QtGui import *
+from PyQt4.Qsci import *
 
 # Main console of Sheep, show info to user (javasript events and plugins custom msg)
 class Console(QWidget):

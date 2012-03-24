@@ -18,7 +18,7 @@
 	limitations under the License.
 """
 import sys, re
-from PySide.QtCore import QUrl
+from PyQt4.QtCore import QUrl, QString
 
 
 REGEXP_IP_ADDRESS = re.compile(r'^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$')

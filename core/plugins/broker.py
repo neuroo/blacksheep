@@ -18,7 +18,7 @@
 	limitations under the License.
 """
 
-from PySide.QtCore import QObject, SIGNAL
+from PyQt4.QtCore import QObject, SIGNAL
 
 """
 	The plugin broker gets the data sent over by a plugin and register

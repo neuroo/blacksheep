@@ -17,7 +17,7 @@
 	See the License for the specific language governing permissions and
 	limitations under the License.
 """
-from PySide.QtCore import QObject, SIGNAL
+from PyQt4.QtCore import QObject, SIGNAL
 
 import core.management
 

@@ -19,10 +19,10 @@
 """
 import sys, os
 
-from PySide.QtCore import *
-from PySide.QtGui import *
-from PySide.QtWebKit import *
-from PySide.Qsci import *
+from PyQt4.QtCore import *
+from PyQt4.QtGui import *
+from PyQt4.QtWebKit import *
+from PyQt4.Qsci import *
 
 import core.management
 

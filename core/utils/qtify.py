@@ -18,7 +18,7 @@
 	limitations under the License.
 """
 
-from PySide.QtCore import *
+from PyQt4.QtCore import *
 
 
 def unqtify_string(rts):

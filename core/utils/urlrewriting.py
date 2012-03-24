@@ -19,7 +19,7 @@
 """
 
 import re, sys
-from PySide.QtCore import *
+from PyQt4.QtCore import *
 from core.utils.domain import extract_domain
 
 """

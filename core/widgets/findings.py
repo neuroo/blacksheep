@@ -19,8 +19,8 @@
 """
 import sys
 
-from PySide.QtCore import *
-from PySide.QtGui import *
+from PyQt4.QtCore import *
+from PyQt4.QtGui import *
 
 from core.utils.findingsdb import FindingsDatabase
 from core.dialog.findingcategory import NewFindingCategoryDialog

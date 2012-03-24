@@ -18,7 +18,7 @@
 	limitations under the License.
 """
 import sys, json
-from PySide.QtCore import *
+from PyQt4.QtCore import *
 
 def jsonify_headers(headers, variable_name):
 	cookies_list = []

@@ -19,8 +19,8 @@
 """
 import re
 
-from PySide.QtCore import *
-from PySide.QtGui import *
+from PyQt4.QtCore import *
+from PyQt4.QtGui import *
 
 from core.widgets.sitemap import probe_icon
 

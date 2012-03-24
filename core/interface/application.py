@@ -19,8 +19,8 @@
 """
 import sys
 
-from PySide.QtCore import *
-from PySide.QtGui import *
+from PyQt4.QtCore import *
+from PyQt4.QtGui import *
 
 import core.interface.browser
 
@@ -105,7 +105,7 @@ class MainWindow(QMainWindow):
 		QObject.connect(self.web, SIGNAL("titleChanged(QString)"), self.setTitle_Slot)
 		# Transfer info from request
 		QObject.connect(self.net, SIGNAL("updateDocTamperView_Signal"), self.tamperingData.setRequestResponse_Slot)
-		QObject.connect(self.net, SIGNAL('sslErrors(const QList<QSslError> &errors)'), self.web.setSSLErrors_Slot) # Transfer info from request
+		# QObject.connect(self.net, SIGNAL('sslErrors(const QList<QSslError> &errors)'), self.web.setSSLErrors_Slot) # Transfer info from request
 		# propagate the Site map items
 		QObject.connect(self.net.manager, SIGNAL("newUrl_Signal"), self.site.addTreeItem)
 

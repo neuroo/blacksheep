@@ -1,51 +1,51 @@
-Unique_ID,Name,CWE ID,CAPEC ID,Description,References
-53381dd1e8e028c8d0734ad6990fa576,XQuery Injection,652,84,,WASC-46
-20b214243cb07b88f53cda91ade14158,URL Redirector Abuse,601,,,WASC-38
-87dd6c34d8b4034bc620e099c4dd30d6,OS Commanding,78,88,,WASC-31
-bacabd4310b99b4944e4a9d23027d464,Insufficient Session Expiration,613,60,,WASC-47
-bc1bbc72a8ff1003cb666ee7fb5f5d44,Null Byte Injection,,52,,WASC-28
-9bdf53774711b92a6bbc548a131c2f3a,Cross-Site Request Forgery,352,62,,WASC-9
-3cbc3d8c7b61e0dbde310e72e6979cba,HTTP Response Splitting,113,34,,WASC-25
-c8da43c8081eeced9741ecb2d48a1245,Content Spoofing,,148,,WASC-12
-115a7c5cfaedd9e9c268df1eefe91584,Predictable Resource Location,425,87,,WASC-34
-7755c199307b63bb77b13f20c2cf1baa,Improper Filesystem Permissions,280,17,,WASC-17
-c5911f66b85dbc003c7103fa23b87dfd,Session Fixation,384,61,,WASC-37
-0cca0a09d3fc37caf7f8b579ea259ce2,Application Misconfiguration,16,,,WASC-15
-7e8eec555d444d416bb9554a500826e3,Insufficient Password Recovery,640,50,,WASC-49
-7f8eda6177c1b7bac3346f37b52de8c4,Improper Input Handling,20,,,WASC-20
-7f99e5b3a71a35c5b2f93f3ed0ec25de,Insecure Indexing,612,,,WASC-48
-6e23a4f37bb1effd2745b7f750ce33ba,Insufficient Process Validation,,,,WASC-40
-2c00e31d8bc39df563c2d1d9ed63ff19,Format String,134,67,,WASC-6
-2e48d92eb3d42308d384da4b5ac2cac3,XML Attribute Blowup,,229,,WASC-41
-e8d418390d9fac8be0a2176c84a60a75,Server Misconfiguration,3,,,WASC-14
-84da67ba75b932d2033ceebead941804,SQL Injection,89,66,,WASC-19
-0530dd33107b4658d176ec266d4481e6,Remote File Inclusion,98,"193, 253",,WASC-5
-e7af41ed3208f89120a4cb017ae0522a,XPath Injection,643,83,,WASC-39
-72c8b9411e46b5174177ca15dc022e1b,Path Traversal,22,126,,WASC-33
-b51bfc02977b64f3fe1ac978fec3e034,LDAP Injection,90,136,,WASC-29
-6a763a0948404c075eeacb6406d8b609,Unclassified,,,Place holder for temporary creation of findings,
-073b3868d8de308c8df5cd118251942b,Integer Overflows,189,128,,WASC-3
-b83befec165409408cc18cd7ead44bbf,SOAP Array Abuse,,256,,WASC-35
-9e9c1789f00a48a231a067267a0b0c61,Information Leakage,200,118,,WASC-13
-d4bea9b1346c569d11853be77ca5b328,Credential/Session Prediction,330,59,,WASC-18
-24e6b1ec101df756fac6b7b4e42f25df,XML External Entities,611,221,,WASC-43
-c376585bcdef793bdd73260decdaec41,Cross-Site Scripting,79,"18, 19, 63",,WASC-8
-d2566ce670e4c64f90cdf274ef0e07a7,Insufficient Authorization,284,,,WASC-2
-48c1b810b7979cd2fa1fb6fe596a32fd,Denial of Service,400,119,,WASC-10
-c0d2bbef2432ab9579bcac31a1c121f6,Insufficient Anti-automation,,,,WASC-21
-6229e5a591748fa567cdad005534a3fd,HTTP Response Smuggling,,273,,WASC-27
-f536ab243d68f8e21210362c9da31888,XML Injection,91,250,,WASC-23
-f5929180aaf8310030e7ab9692b89e10,Insufficient Authentication,287,,,WASC-1
-830bcac1823d5c332cda7bf3d55188a1,Routing Detour,,219,,WASC-32
-b84d2d336c4b83f379d6f0117f8aedd8,Abuse of Functionality,,210,,WASC-42
-2c1846aec225aed099dddeb8cd244955,Brute Force,,112,,WASC-11
-dbfb7e04e68004c5386043df91ef4405,Insufficient Transport Layer Protection,"319, 523, 614",,,WASC-4
-afa6bed103d12a07707ba53df1186d34,HTTP Request Smuggling,444,33,,WASC-26
-9cf1ab47977970ea9980b8af31ce118f,Directory Indexing,548,127,,WASC-16
-7b228e0a773d0a877665dd7028f2883d,Buffer Overflow,119,"10, 100",,WASC-7
-c54563de60b662ff90dfc0d72a7fee7a,Improper Output Handling,116,,,WASC-22
-d60acd51c0a9d3333a3e0ccc25008eee,HTTP Request Splitting,,105,,WASC-24
-4b5b5a59924ecc3c899b620e1991a2a5,SSI Injection,97,101,,WASC-36
-76bc8b7fd1ba4de11f9d4acb860d1fb0,XML Entity Expansion,776,197,,WASC-44
-2820f188fb115117a4c8f7657169b849,Fingerprinting,205,224,,WASC-45
-d208a2de62b51ae339d5d759a235e65c,Mail Command Injection,,134,,WASC-30
+Unique_ID,Name,CWE ID,CAPEC ID,Description,References
+53381dd1e8e028c8d0734ad6990fa576,XQuery Injection,652,84,,WASC-46
+20b214243cb07b88f53cda91ade14158,URL Redirector Abuse,601,,,WASC-38
+87dd6c34d8b4034bc620e099c4dd30d6,OS Commanding,78,88,,WASC-31
+bacabd4310b99b4944e4a9d23027d464,Insufficient Session Expiration,613,60,,WASC-47
+bc1bbc72a8ff1003cb666ee7fb5f5d44,Null Byte Injection,,52,,WASC-28
+9bdf53774711b92a6bbc548a131c2f3a,Cross-Site Request Forgery,352,62,,WASC-9
+3cbc3d8c7b61e0dbde310e72e6979cba,HTTP Response Splitting,113,34,,WASC-25
+c8da43c8081eeced9741ecb2d48a1245,Content Spoofing,,148,,WASC-12
+115a7c5cfaedd9e9c268df1eefe91584,Predictable Resource Location,425,87,,WASC-34
+7755c199307b63bb77b13f20c2cf1baa,Improper Filesystem Permissions,280,17,,WASC-17
+c5911f66b85dbc003c7103fa23b87dfd,Session Fixation,384,61,,WASC-37
+7f8eda6177c1b7bac3346f37b52de8c4,Improper Input Handling,20,,,WASC-20
+c54563de60b662ff90dfc0d72a7fee7a,Improper Output Handling,116,,,WASC-22
+7f99e5b3a71a35c5b2f93f3ed0ec25de,Insecure Indexing,612,,,WASC-48
+6e23a4f37bb1effd2745b7f750ce33ba,Insufficient Process Validation,,,,WASC-40
+2c00e31d8bc39df563c2d1d9ed63ff19,Format String,134,67,,WASC-6
+7e8eec555d444d416bb9554a500826e3,Insufficient Password Recovery,640,50,,WASC-49
+e8d418390d9fac8be0a2176c84a60a75,Server Misconfiguration,3,,,WASC-14
+84da67ba75b932d2033ceebead941804,SQL Injection,89,66,,WASC-19
+0530dd33107b4658d176ec266d4481e6,Remote File Inclusion,98,"193, 253",,WASC-5
+e7af41ed3208f89120a4cb017ae0522a,XPath Injection,643,83,,WASC-39
+72c8b9411e46b5174177ca15dc022e1b,Path Traversal,22,126,,WASC-33
+b51bfc02977b64f3fe1ac978fec3e034,LDAP Injection,90,136,,WASC-29
+6a763a0948404c075eeacb6406d8b609,Unclassified,,,Place holder for temporary creation of findings,
+073b3868d8de308c8df5cd118251942b,Integer Overflows,189,128,,WASC-3
+b83befec165409408cc18cd7ead44bbf,SOAP Array Abuse,,256,,WASC-35
+9e9c1789f00a48a231a067267a0b0c61,Information Leakage,200,118,,WASC-13
+d4bea9b1346c569d11853be77ca5b328,Credential/Session Prediction,330,59,,WASC-18
+24e6b1ec101df756fac6b7b4e42f25df,XML External Entities,611,221,,WASC-43
+c376585bcdef793bdd73260decdaec41,Cross-Site Scripting,79,"18, 19, 63",,WASC-8
+d2566ce670e4c64f90cdf274ef0e07a7,Insufficient Authorization,284,,,WASC-2
+48c1b810b7979cd2fa1fb6fe596a32fd,Denial of Service,400,119,,WASC-10
+c0d2bbef2432ab9579bcac31a1c121f6,Insufficient Anti-automation,,,,WASC-21
+6229e5a591748fa567cdad005534a3fd,HTTP Response Smuggling,,273,,WASC-27
+f536ab243d68f8e21210362c9da31888,XML Injection,91,250,,WASC-23
+f5929180aaf8310030e7ab9692b89e10,Insufficient Authentication,287,,,WASC-1
+830bcac1823d5c332cda7bf3d55188a1,Routing Detour,,219,,WASC-32
+dbfb7e04e68004c5386043df91ef4405,Insufficient Transport Layer Protection,"319, 523, 614",,,WASC-4
+b84d2d336c4b83f379d6f0117f8aedd8,Abuse of Functionality,,210,,WASC-42
+2c1846aec225aed099dddeb8cd244955,Brute Force,,112,,WASC-11
+0cca0a09d3fc37caf7f8b579ea259ce2,Application Misconfiguration,16,,,WASC-15
+afa6bed103d12a07707ba53df1186d34,HTTP Request Smuggling,444,33,,WASC-26
+9cf1ab47977970ea9980b8af31ce118f,Directory Indexing,548,127,,WASC-16
+7b228e0a773d0a877665dd7028f2883d,Buffer Overflow,119,"10, 100",,WASC-7
+2e48d92eb3d42308d384da4b5ac2cac3,XML Attribute Blowup,,229,,WASC-41
+d60acd51c0a9d3333a3e0ccc25008eee,HTTP Request Splitting,,105,,WASC-24
+4b5b5a59924ecc3c899b620e1991a2a5,SSI Injection,97,101,,WASC-36
+76bc8b7fd1ba4de11f9d4acb860d1fb0,XML Entity Expansion,776,197,,WASC-44
+2820f188fb115117a4c8f7657169b849,Fingerprinting,205,224,,WASC-45
+d208a2de62b51ae339d5d759a235e65c,Mail Command Injection,,134,,WASC-30

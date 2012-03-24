@@ -24,9 +24,9 @@ from pygraph.classes.digraph import digraph
 from pygraph.algorithms.cycles import find_cycle
 from pygraph.algorithms.accessibility import mutual_accessibility
 
-from PySide.QtCore import *
-from PySide.QtGui import *
-from PySide.QtOpenGL import *
+from PyQt4.QtCore import *
+from PyQt4.QtGui import *
+from PyQt4.QtOpenGL import *
 
 from core.utils.layout import Layout
 from core.widgets.component.graphics import *

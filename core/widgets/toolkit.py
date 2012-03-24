@@ -19,9 +19,9 @@
 """
 import sys
 
-from PySide.QtCore import *
-from PySide.QtGui import *
-from PySide.Qsci import *
+from PyQt4.QtCore import *
+from PyQt4.QtGui import *
+from PyQt4.Qsci import *
 
 from core.coddec.encoding import CharsetEncoding
 

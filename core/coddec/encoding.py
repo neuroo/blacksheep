@@ -19,7 +19,7 @@
 """
 import base64
 import jspacker
-from PySide.QtCore import *
+from PyQt4.QtCore import *
 
 import core.management
 

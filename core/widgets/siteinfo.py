@@ -19,9 +19,9 @@
 """
 import sys, os, string, re
 
-from PySide.QtCore import *
-from PySide.QtGui import *
-from PySide.QtNetwork import *
+from PyQt4.QtCore import *
+from PyQt4.QtGui import *
+from PyQt4.QtNetwork import *
 
 from core.widgets.component.graphicview import GraphView
 from core.widgets.sitemap import probe_icon

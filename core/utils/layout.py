@@ -19,8 +19,8 @@
 """
 import random, math
 
-from PySide.QtCore import *
-from PySide.QtGui import *
+from PyQt4.QtCore import *
+from PyQt4.QtGui import *
 
 from pygraph.algorithms.accessibility import accessibility, connected_components
 from pygraph.algorithms.cycles import find_cycle

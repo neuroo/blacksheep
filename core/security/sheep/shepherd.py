@@ -18,9 +18,9 @@
 	limitations under the License.
 """
 
-from PySide.QtCore import *
-from PySide.QtGui import *
-from PySide.QtNetwork import *
+from PyQt4.QtCore import *
+from PyQt4.QtGui import *
+from PyQt4.QtNetwork import *
 
 """
 	Shepherd is a simple web server designed to handle request from application.

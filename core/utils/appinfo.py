@@ -19,8 +19,8 @@
 """
 import os, sys
 
-from PySide.QtCore import *
-from PySide.QtNetwork import *
+from PyQt4.QtCore import *
+from PyQt4.QtNetwork import *
 
 import core.network
 from core.utils.domain import extract_domain
