@@ -2,6 +2,14 @@
 
 Security tool that enables security analysis and penetration testing, BlackSheep is a framework which focuses on augmenting manual pen-test by providing information to the tester. BlackSheep also keeps track of every testing steps employed by the pen-tester and facilitates the storage of the results and test cases. 
 
+## Screenshots
+
+- [Application flow graph](https://github.com/neuroo/blacksheep/raw/master/screenshot/app_flow_graph.png)
+- [Precise client-side actions recording](https://github.com/neuroo/blacksheep/raw/master/screenshot/client_side_selectors.png)
+- [You can view stuff!](https://github.com/neuroo/blacksheep/raw/master/screenshot/content_viewer.png)
+- [Adding findings with a click](https://github.com/neuroo/blacksheep/raw/master/screenshot/findings_management.png)
+- [Full blown web browser (built on top of WebKit)](https://github.com/neuroo/blacksheep/raw/master/screenshot/web_browser.png)
+
 ## Current features
 
 - Support of common web technologies: web engine using WebKit (Qt port) to render JavaScript and CSS, support of netscape plugins for Flash, Silverlight, etc.
