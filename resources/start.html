@@ -1,0 +1,73 @@
+<html>
+<head>
+<style>
+html {background-color:#fff;color:#444;font-family:Helvetica,Sans-Serif;font-size:12px;line-height:1.6em;margin:0;padding:0;}
+body {background-color:#fff;padding:0; margin: 30px;}
+h1 { display: block;	padding: 5px;}
+h2 { display: block; font-size: 1.1em; font-weight: normal;}
+#intro {font-family: georgia, serif; font-style: italic; font-size:16px; color: #666;}
+#logo   {float: right}
+#footer {text-align: center;}
+#thank  {font-size: 0.8em;}
+#line {
+	clear: both;
+	padding-top: 10px;
+}
+#line span.left {
+	float: left;
+	width: 65%;
+	text-align: center;
+}
+#line span.right {
+	float: right;
+	width: 35%;
+	text-align: left;
+}
+</style>
+</head>
+<body>
+	<a href = "http://www.garycmartin.com"><img style = "float:right; padding:5px;" src = "./images/sheep_curious.png" border = "0" alt = "http://www.garycmartin.com"/></a>
+	<h1>BlackSheep</h1>
+	<span id='intro'>BlackSheep is a set of tools and capabilities integrated around the WebKit engine that aims to facilitate web application pen-testing. The tool focuses on manual testing but can be extended with plugins.</span>
+	<br />
+	<h2>Current features:</h2>
+	<ul>
+		<li>Support of common web technologies: web engine using WebKit (Qt port) to render JavaScript and CSS, support of netscape plugins for Flash, Silverlight, etc.</li>
+		<li>HTTP requests tampering (GET, POST, Cookie and Headers) by interception or request replay</li>
+		<!--<li>Automatic payload generation for cross-site scripting</li>-->
+		<li>Exploited XSS that trigger an alert/prompt will be automatically added to findings (based on JavaScript engine runtime events monitoring)</li>
+		<!--<li>Generation of test cases (multiple requests/responses test cases)</li>-->
+		<li>Findings collection based on custom data structure, easy creation of findings based on HTTP history. Export in OFS (Open Finding Schema) later on</li>
+		<li>History of HTTP requests and responses</li>
+		<li>Web application informations for pen-testers:
+		<ul>
+			<li>Site structure (simple tree sitemap)</li>
+			<li>Application Flow Map with heuristics and view of all information for each node</li>
+			<!--<li>Application stack information (type of web server, detection of known web apps, etc.)</li>-->
+			<li>Source code/DOM view with search</li>
+			<li>WebKit Inspector available for all pages</li>
+			<li>Record of user interactions (clicks, keyboard, etc.) on each web pages</li>
+		</ul></li>
+		<li>Partial support of URL rewriting rules</li>
+		<li>Direction JavaScript injection in DOM</li>
+		<li>Different transcoders available for charsets, encodings (URL encoding, Base64, etc.)</li>
+		<li>Plugin capabilities:
+		<ul>
+			<li>JavaScript: load of multiple javascript files in the DOM (cf. highlight_anchors example), access of current HTTP request (and response content) as JSON <i>sheep_headers</i> variable (cf. header_overlay example)</li>
+			<li>Python: Passive (monitor) and active (driver) plugins will be available</li>
+		</ul>
+		</li>
+	</ul>
+	<br />
+	<br />
+	<div id = "footer">
+		<div id = "line">
+		<span class = "left">
+			<b>sheep/0.1c</b>  by <a href = "http://rgaucher.info">Romain Gaucher</a>.
+			<br />
+		</span>
+		<span class = "right"><a href = "http://python.org"><img src = "./images/python-powered.png" /></a>&nbsp;<a href = "http://trolltech.com"><img src = "./images/qt-logo-small.png" /></a><div style="display:none"></span>
+		</div>
+	</div>
+</body>
+</html>
