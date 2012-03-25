@@ -14,11 +14,35 @@ Security tool that enables security analysis and penetration testing, BlackSheep
 
 - Support of common web technologies: web engine using WebKit (Qt port) to render JavaScript and CSS, support of netscape plugins for Flash, Silverlight, etc.
 - HTTP requests tampering (GET, POST, Cookie and Headers) by interception or request replay
-- Exploited XSS that trigger an alert/prompt will be automatically added to findings (based on JavaScript engine runtime events monitoring)
-- Findings collection based on custom data structure, easy creation of findings based on HTTP history. Export in OFS (Open Finding Schema) later on
+- Exploited XSS that trigger an alert/prompt will be automatically added to findings (based on JavaScript engine runtime events monitoring), using the _sheep testing_ mode
+- Findings collection based on custom data structure, easy creation of findings based on HTTP history.
 - History of HTTP requests and responses
 - Web application informations for pen-testers: Site structure (simple tree sitemap), Application Flow Map with heuristics and view of all information for each node, Source code/DOM view with search, WebKit Inspector available for all pages, Record of user interactions (clicks, keyboard, etc.) on each web pages (Test case tab)
 - Partial support of URL rewriting rules
 - Direct JavaScript injection in DOM
 - Different transcoders available for charsets, encodings (URL encoding, Base64, etc.)
 - JavaScript and Python plugins support
+
+## Dependencies
+
+- Python 2.6, or 2.7
+- PyQt4 (need 4.7.X)
+- python-graph
+
+On OSX, you can fetch those PyQt4:
+
+	sudo port install py27-pyqt4
+
+And `python-graph` can be fetch using easy_install:
+	
+	easy_install python-graph-core
+
+The windows version of PyQt4 can be downloaded at [riverbankcomputing](http://www.riverbankcomputing.co.uk/software/pyqt/download), and for Ubuntu's using `apt-get`.
+
+## Running BlackSheep
+
+To launch the GUI, you simply need to run `sheep.py`:
+
+	python sheep.py
+
+that should be it.
