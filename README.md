@@ -26,14 +26,14 @@ Security tool that enables security analysis and penetration testing, BlackSheep
 ## Dependencies
 
 - Python 2.6, or 2.7
-- PyQt4 (need 4.7.X)
-- python-graph
+- PyQt4 (version 4.7.0 or higher)
+- python-graph (version 1.7 or higher)
 
-On OSX, you can fetch those PyQt4:
+On OSX, you can get PyQt4 using [macports](http://macports.org):
 
 	sudo port install py27-pyqt4
 
-And `python-graph` can be fetch using easy_install:
+And `python-graph` can be fetch using [easy_install](http://pypi.python.org/pypi/setuptools):
 	
 	easy_install python-graph-core
 
